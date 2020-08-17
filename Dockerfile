@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER "AnmolNagpal <anmol@clouddrove.com>"
 
-ENV TERRAFORM_VERSION=0.12.10
+ENV TERRAFORM_VERSION=0.13.00
 ENV TERRAFORM_SHA256SUM=3a91d603e381dd38e37a2aa7339dfe8826b30514dd6bbce24ebcb8e6a3bbec22
 
 RUN apk add --update git curl openssh && \
